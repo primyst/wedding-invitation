@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "wedding-invitation",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,24 +9,20 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "framer-motion": "^12.23.25",
-    "lucide-react": "^0.556.0",
-    "react-icons": "^4.12.0",
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-"three": "^0.170.0",
-  "@react-three/fiber": "^9",
-  "@react-three/drei": "^10"
+    "lucide-react": "^0.468.0",
+    "motion": "^12.23.12",
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20.19.11",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^16.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.2"
   }
 }
