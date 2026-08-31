@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Sparkles } from "lucide-react";
 import { useState } from "react";
 import CelebrationExperience from "@/components/CelebrationExperience";
+import ClosingExperience from "@/components/ClosingExperience";
 import ScratchReveal from "@/components/ScratchReveal";
 
 type PuzzlePieceProps = { label: string; side: "left" | "right"; onSolved: () => void; };
@@ -36,6 +37,6 @@ export default function Home() {
 
     <ScratchReveal />
 
-    <section className="relative flex min-h-[100svh] items-end overflow-hidden text-white"><Image src="/images/image10.jpg" alt="Abdullah and Kabirah beginning their next chapter" fill sizes="100vw" className="object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" /><div className="relative mx-auto w-full max-w-4xl px-6 pb-20 text-center sm:pb-28"><p className="text-xs uppercase tracking-[0.35em] text-white/70">The beginning of forever</p><h2 className="mt-6 text-5xl sm:text-8xl">And so, our next chapter begins.</h2><p className="mt-8 text-lg text-white/80">With love, Abdullah & Kabirah</p><p className="mt-16 text-[10px] uppercase tracking-[0.3em] text-white/50">Crafted by Primyst</p></div></section>
+    <ClosingExperience />
   </main>;
 }
