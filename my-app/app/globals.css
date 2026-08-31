@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #241b17;
+  --paper: #f5eee4;
+  --paper-deep: #e9ddcf;
+  --gold: #b68a56;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+::selection { background: #d9bea0; color: #241b17; }
